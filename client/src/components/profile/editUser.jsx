@@ -43,9 +43,7 @@ export default function EditForm({hideEditUser, emailId, firstName, lastName, sh
       //User Edit Service call - Upon success user is redirected to dashboard 
       //Edit fail snackbar displays error
       const update_response = await editUser(values, setShowAlert, setAlertMessage, showHomeAlert, homeAlertMessage)
-      {update_response && 
-        hideEditUser()    
-    }
+      update_response && hideEditUser();
     },
   });
 

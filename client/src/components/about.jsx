@@ -30,7 +30,7 @@ const About = () => {
   </p>
 </div>
 <br/>
-<center><img src="https://raw.githubusercontent.com/tuzup/SplitApp/master/Screenshots/dashboard-main-transparent.png" alt="splitapp" width={'80%'}/></center>
+<center><img src="https://raw.githubusercontent.com/tuzup/SplitApp/master/Screenshots/dashboard-main-transparent.png" alt="split it" width={'80%'}/></center>
 <Typography variant="h5">
 MERN Stack Group Expense Splitting Application
 </Typography>

@@ -53,9 +53,8 @@ export default function ChangePassword({ hidePassUpdate, emailId, showHomeAlert,
       //User Register Service call - Upon success user is redirected to dashboard
       //Register fail snackbar displays error
       const update_response = await updatePassword(values, setShowAlert, setAlertMessage, showHomeAlert, homeAlertMessage)
-      {
-        update_response &&
-        hidePassUpdate()
+      if (update_response) {
+        hidePassUpdate();
       }
     },
   });
